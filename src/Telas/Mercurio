@@ -9,7 +9,7 @@ import {
 
 import { estilos } from "../styleSheet/estilos";
 
-export default function Corinthians() {
+export default function Mercurio() {
 
   return (
 
@@ -19,13 +19,13 @@ export default function Corinthians() {
 
         <Image
           source={{
-            uri: "https://upload.wikimedia.org/wikipedia/pt/b/b4/Corinthians_simbolo.png"
+            uri: "https://upload.wikimedia.org/wikipedia/commons/4/4a/Mercury_in_true_color.jpg"
           }}
           style={estilos.logoTime}
         />
 
         <Text style={estilos.titulo}>
-          Corinthians
+          Mercúrio
         </Text>
 
       </View>
@@ -33,29 +33,37 @@ export default function Corinthians() {
       <ScrollView style={estilos.corpoTime}>
 
         <Text style={estilos.subtitulo}>
-          História
+          História e Características
         </Text>
 
         <Text style={estilos.texto}>
-          O Corinthians foi fundado em 1910.
+          Mercúrio é o planeta mais próximo do Sol e o menor do Sistema Solar. 
+          Sua superfície é marcada por crateras, semelhante à Lua, e ele não possui atmosfera significativa.
         </Text>
 
         <Text style={estilos.subtitulo}>
-          Títulos
+          Curiosidades
         </Text>
 
         <Text style={estilos.texto}>
-          Libertadores, Mundial e Brasileirão.
+          - Um ano em Mercúrio dura apenas 88 dias terrestres.{"\n"}
+          - As temperaturas variam de -180°C à noite até 430°C durante o dia.{"\n"}
+          - Foi observado pela primeira vez com telescópios no século XVII.
+        </Text>
+
+        <Text style={estilos.subtitulo}>
+          Exploração
+        </Text>
+
+        <Text style={estilos.texto}>
+          Missões como a Mariner 10 e a sonda Messenger trouxeram imagens detalhadas e dados sobre sua composição e campo magnético.
         </Text>
 
       </ScrollView>
 
       <View style={estilos.rodape}>
-
         <Text>DSV Mobile</Text>
-
         <Text>2026</Text>
-
       </View>
 
     </View>
